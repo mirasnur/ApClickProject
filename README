@@ -1,0 +1,7 @@
+1) Dowmload the project and save in some place
+2) Import dump.sql.gz in your DataBase(PostgreSql), change DB username or password 
+         in ApClickProject / src / com / testproblem / page / DB.java  if needed.
+3) open Command Line and go to your project 
+4) run command : mvn package
+5) run command : mvn jetty:run
+6) goto localhost/ClickProject/
